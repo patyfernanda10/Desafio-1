@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+    <div class="header">
+    <h1>Pendência</h1>
+    <div class="dropdown-month">
+    <button class="months">Abril</button>
+    <div class="drop-months">
+        <a href="#">Janeiro</a>
+        <a href="#">Fevereiro</a>
+        <a href="#">Março</a>
+        <a href="#">Abril</a>
+        <a href="#">Maio</a>
+        <a href="#">Junho</a>
+        <a href="#">JUlho</a>
+        <a href="#">Agosto</a>
+        <a href="#">Setembro</a>
+        <a href="#">Outubro</a>
+        <a href="#">Novembro</a>
+        <a href="#">Dezembro</a>
+    </div>
+</div>
+<div class="days">
+    <div class="dnum">
+        <h2 id="day">01</h2>
+        <h2 id="day">02</h2>
+        <h2 id="day">03</h2>
+        <h2 id="day">04</h2>
+        <h2 id="day">05</h2>
+        <h2 id="day">06</h2>
+        <h2 id="day">07</h2>
+
+    </div>
+    <div class="dwr">
+        <h2 id="dayw">DOM</h2>
+        <h2 id="dayw">SEG</h2>
+        <h2 id="dayw">TER</h2>
+        <h2 id="dayw">QUA</h2>
+        <h2 id="dayw">QUI</h2>
+        <h2 id="dayw">SEX</h2>
+        <h2 id="dayw">SÁB</h2>
+    </div>
+</div>
+<div class="data">
+    <h5> 0/0 Concluído </h5>
+</div>
+</div>
+
+<div class="todo">
+<form>
+    <input type="text" id="task" placeholder="Adicionar nova tarefa">
+    <button type="button" onclick=""> + </button>
+</form>
+</div>
+<div class="list">
+
+<!-- -> js -->
+<div class="items">
+    <input type="checkbox" id="check" name="checktask" />
+    <h3 class="btn-text">Nova tarefa</h3>
+    <button class="btn-delete" onclick=""><img
+            src="https://res.cloudinary.com/codier/image/upload/v1696533067/ngwt52z9tq7ba8tl5lm3.png"></button>
+</div>
+
+</div>
+</div>
+
+
+
+</body>
+</html>
